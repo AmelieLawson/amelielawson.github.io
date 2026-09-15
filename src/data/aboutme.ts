@@ -34,7 +34,7 @@ export const aboutMe: AboutMe = {
   substackUsername: "amelielawson",
   twitterUsername: "",
   blogUrl: "https://substack.com/@amelielawson",
-  cvUrl: "https://",
+  cvUrl: "",
   institutionUrl: "https://www.cam.ac.uk",
   // altName: "",
   // secretDescription: "I like dogs.",
