@@ -2,6 +2,8 @@ export interface Education {
   year: string;
   institution: string;
   degree: string;
+  firstyear?: string;
+  secondyear?: string;
   advisor?: string;
   thesis?: string;
   thesisUrl?: string;
@@ -10,17 +12,27 @@ export interface Education {
 export const educationData: Education[] = [
   // If you don't want to show education, just make the array empty.
   {
-    year: "2021—Present",
-    institution: "Stanford University",
-    degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Sarah Johnson",
+    year: "2024—Present",
+    institution: "University of Cambridge",
+    degree: "BA Natural Sciences",
+    firstyear: "Class I in Part IA Chemistry, Materials Science, Biology of Cells, Mathematics",
+    secondyear: "Class I in Part IB Physical & Theoretical Chemistry, Organic & Inorganic Chemistry, Mathematics",
+    advisor: "",
   },
   {
-    year: "2017—2021",
-    institution: "Massachusetts Institute of Technology",
-    degree: "B.S. in Computer Science and Mathematics",
-    thesis: "Algorithmic Approaches to Causal Discovery",
+    year: "2022—2024",
+    institution: "AKS Lytham Sixth Form",
+    degree: "A*A*A*A* in A-Level Biology, Chemistry, Mathematics, and Further Maths",
+    thesis: "",
     // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
+    // thesisUrl: ""
+  },
+    {
+    year: "2017—2022",
+    institution: "AKS Lytham Senior School",
+    degree: "Six 9s and three 8s at GCSE, alongside 9 in Level 2 Further Maths",
+    thesis: "",
+    // Optional links to thesis
+    // thesisUrl: ""
   },
 ];

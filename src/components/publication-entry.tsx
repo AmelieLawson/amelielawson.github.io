@@ -15,8 +15,8 @@ export function PublicationEntry({
             src={publication.imageUrl}
             alt={publication.title}
             width={160}
-            height={200}
-            className="rounded-lg transition-all duration-300"
+            height={150}
+            className="rounded-lg transition-all duration-300 h-[150px] object-cover"
           />
         </div>
       )}
@@ -46,7 +46,7 @@ export function PublicationEntry({
                 size={12}
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase">Paper</span>
+              <span className="tracking-wider uppercase">Essay</span>
             </a>
           )}
           {publication.codeUrl && (

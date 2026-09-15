@@ -13,6 +13,16 @@ export function EducationEntry({ education }: { education: Education }) {
               Advisor: {education.advisor}
             </p>
           )}
+          {education.firstyear && (
+            <p className="text-sm text-zinc-500 mt-2 italic">
+              {education.firstyear}
+            </p>
+          )}
+          {education.secondyear && (
+            <p className="text-sm text-zinc-500 mt-2 italic">
+              {education.secondyear}
+            </p>
+          )}
           {education.thesis && (
             <p className="text-sm text-zinc-500 mt-2 italic">
               Thesis:{" "}
