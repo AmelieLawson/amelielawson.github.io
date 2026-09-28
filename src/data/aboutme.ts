@@ -24,7 +24,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Cambridge",
   // Note that links work in the description
   description:
-    "I'm a final-year BA Natural Sciences student specialising in computational and theoretical chemistry. Beyond my degree I am interested in AI safety research and the use of machine learning for scientific discovery. In my free time, I most enjoy wakesurfing, padel, and skiing.",
+    "I'm a final-year BA Natural Sciences student specialising in computational and theoretical chemistry. Beyond my degree I am interested in machine learning and AI for scientific discovery. In my free time, I most enjoy wakesurfing, padel, and skiing.",
   email: "amelierlawson@gmail.com",
   imageUrl:
     "",
